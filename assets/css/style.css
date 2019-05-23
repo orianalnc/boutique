@@ -10481,6 +10481,16 @@ textarea.form-control {
   #map {
     height: 300px;
   }
+  .btq-info {
+    width: 100% !important; 
+    position: relative !important; 
+    margin-top: 0px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .btq-info {
+    width: 50% !important; 
+  }
 }
 
 .heading-section span {
