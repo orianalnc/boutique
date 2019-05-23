@@ -11383,3 +11383,15 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+.btq-info{
+  width: 20%;
+  background-color: #819d52;
+  padding: 15px;
+  position: absolute;
+  margin-top: -30px;
+  color: #fff;
+}
+.img-info{
+  width: 40px;
+}
