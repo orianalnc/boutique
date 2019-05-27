@@ -11396,12 +11396,68 @@ textarea.form-control {
 
 .btq-info{
   width: 20%;
-  background-color: #819d52;
-  padding: 15px;
+  background-color: rgb(129, 157, 82);
+  padding: 30px 0;
   position: absolute;
   margin-top: -30px;
   color: #fff;
+  z-index: 999;
 }
-.img-info{
+.btq-info.effect-lily .img-info{
   width: 40px;
+}
+
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+
+.btq-info.effect-lily img {
+	width: -webkit-calc(100% + 50px);
+	width: calc(100% + 50px);
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-40px,0, 0);
+	transform: translate3d(-40px,0,0);
+}
+
+.btq-info.effect-lily h2{
+  font-size: 16px;
+}
+
+.btq-info.effect-lily h2,
+.btq-info.effect-lily p {
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+
+.btq-info.effect-lily h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.btq-info.effect-lily p {
+	color: rgba(255,255,255,0.6);
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+	transition: opacity 0.2s, transform 0.35s;
+}
+
+.btq-info.effect-lily:hover img,
+.btq-info.effect-lily:hover p {
+	opacity: 1;
+}
+
+.btq-info.effect-lily:hover img,
+.btq-info.effect-lily:hover h2,
+.btq-info.effect-lily:hover p {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.btq-info.effect-lily:hover p {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
 }
