@@ -5329,16 +5329,15 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .close {
   float: right;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
+  color: #fff;
   text-shadow: 0 1px 0 #fff;
-  opacity: .5;
 }
 
 .close:hover, .close:focus {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   opacity: .75;
 }
@@ -5428,9 +5427,9 @@ button.close {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 0px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
   outline: 0;
 }
@@ -5534,6 +5533,22 @@ button.close {
   .modal-lg {
     max-width: 800px;
   }
+}
+
+.bg-frame{
+  background-image: url(../images/frame.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+.text-frame{
+  position: absolute;
+  margin-top: 140px;
+  text-align: center;
+  margin-left: 300px;
+  color: #fff;
 }
 
 .tooltip {
