@@ -11476,3 +11476,14 @@ textarea.form-control {
 	-webkit-transition-duration: 0.35s;
 	transition-duration: 0.35s;
 }
+
+.wapper{
+  background-image: url('../images/wapper.png');
+  background-color: rgba(175, 175, 175, 0.644);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  color: #212121;
+  height: 500px;
+
+}
