@@ -1927,22 +1927,22 @@ pre code {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #6c757d;
+  color: #fff;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #6c757d;
+  color: #fff;
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #6c757d;
+  color: #f7f7f7;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: #fff;
   opacity: 1;
 }
 
@@ -10189,18 +10189,18 @@ header .boutique-navbar-brand .boutique-logo:before {
 }
 
 .form-group label {
-  color: #624e26;
+  color: #fff;
 }
 
 .form-control {
   height: 52px !important;
-  background: #fff !important;
-  color: #7d8faf !important;
+  background: rgba(255, 255, 255, 0.075) !important;
+  color: #ececec !important;
   font-size: 18px;
-  border-radius: 0px;
+  border-radius: 4px;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border: 1px solid #ccd3e0;
+  border: 0px solid #ccd3e0;
 }
 
 .form-control:focus, .form-control:active {
@@ -11478,12 +11478,43 @@ textarea.form-control {
 }
 
 .wapper{
-  background-image: url('../images/wapper.png');
-  background-color: rgba(175, 175, 175, 0.644);
+  background-image: url('../images/004.jpg');
+  background-color: rgba(15, 15, 15, 0.897);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
-  color: #212121;
-  height: 500px;
+  color: #fff;
+  font-size: 40px;
+
+}
+.wapper p.size{
+  font-size: 40px;
+  text-align: center;
+}
+
+.parallax {
+  background-image: url('../images/004.jpg');
+  min-height: 300px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax p{
+  text-align: center;
+font-size: 40px;
+color: #fff;
+}
+textarea {
+	resize: none;
+}
+
+
+
+.btn.btn-primary.btn-form:hover {
+
+  border: 1px solid #51442a !important;
+  background: #fff !important;
+  color: #51442a !important;
 
 }

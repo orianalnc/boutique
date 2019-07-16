@@ -33,8 +33,8 @@ $(document).ready(function($) {
 
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
-			center: true,
-	    loop:true,
+			center: false,
+	    loop:false,
 	    autoplay: true,
 	    margin:0,
 	    animateOut: 'fadeOut',
